@@ -1,0 +1,8 @@
+<p>Fruit!</p>
+<button (click)="getFruitData()">Fruits</button>
+
+<div *ngFor='let fruit of fruits'>
+  <ul>
+    <li>{{fruit.name}}</li>
+  </ul>
+</div>
