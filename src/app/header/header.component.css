@@ -27,22 +27,17 @@ html,body {
   border-radius: 4px;
 }
 
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
+
 
 .header a:hover {
-  background-color: #E8A87C;
-  color: black;
+  background-color: dodgerblue;
+  color: whitesmoke;
 }
 
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
+
 
 .header-right {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   float: right;
   padding-top: 20px;
   

@@ -1,24 +1,43 @@
-<p>Fruit!</p>
-<button (click)="getFruitData()">Fruits</button>
+<div class="heading">
+<h1>Looking For Fruits  ??</h1>
 
+</div>
+<br>
+<div class="heading">
+<h2>For item List</h2>
+<button (click)="getFruitData()">Click Me</button>
+</div>
 
- 
+<br>
+<br>
 
 <div *ngFor='let fruit of fruits'>
-  <table border="2px">
+  
+
+
+<table class="content-table">
+  <thead>
     <tr>
-      <th scope="col">Name</th>
-      <th scope="col">id</th>
-      <th scope="col">Genus</th>
       
-      <th scope="col">protein</th>
+      <th>Name</th>
+      <th>Id</th>
+      <th>Genus</th>
+      <th>Add item</th>
     </tr>
-    
-    <tr >
+  </thead>
+  <tbody>
+    <tr>
       <td>{{fruit.name}}</td>
       <td>{{fruit.id}}</td>
       <td>{{fruit.genus}}</td>
+      <button>Add to cart</button>
       
+     
     </tr>
-    </table>
+    
+  </tbody>
+
+
+</table>
+<br>
 </div>

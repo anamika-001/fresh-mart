@@ -1,3 +1,73 @@
-body{
-    background-color:#2a9d8f;
-}
+* {
+    font-family: sans-serif; 
+    
+
+  }
+  
+  .content-table {
+    border-collapse: collapse;
+   
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: fit-content;
+    margin-left:auto; margin-right:auto; 
+    
+   
+  }
+  
+  .content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  button{
+      text-decoration: none;
+      align-content: center;
+      padding-top: 5px;
+      background-color: rgb(52, 167, 52);
+      border-radius: 20px;
+      height: 30px;
+      width: 100px;
+      
+  }
+  .heading{
+         text-align: center;
+         align-content: center;
+  }
+  h1,h2{
+      
+      font-family: sans-serif;
+      font-weight: 2000px;
+      font-style: normal;
+      color: palevioletred;
+      align-content: center;
+      margin: auto;
+  }
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+
+  
